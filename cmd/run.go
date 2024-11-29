@@ -16,7 +16,7 @@ type Store struct {
 	Name     string `json:"name"`
 	Location string `json:"location"`
 }
-
+//
 var session *gocql.Session
 func getHostIP() string {
 	addrs, err := net.InterfaceAddrs()
